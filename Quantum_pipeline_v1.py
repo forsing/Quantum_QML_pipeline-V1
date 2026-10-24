@@ -1,4 +1,8 @@
 # Quantum_QML_pipeline V1
+"""
+QML PIPELINE v1 - VERIFIKOVANI POZICIONI KVANTNI MODEL. 
+SKRIVENA ZAVISNOST USPEŠNO IZOLOVANA. 
+"""
 
 
 import os
@@ -94,9 +98,9 @@ def rekonstruisi_next_kombinaciju_iz_podsistema(kvantni_podsistemi):
     return sorted(sledeca_kombinacija)
 
 if __name__ == "__main__":
-    # PUTANJA_DO_BAZE = "/Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv"
-    # PUTANJA_DO_BAZE = "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv"
-    PUTANJA_DO_BAZE = "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv"
+    # PUTANJA_DO_BAZE = "/data/loto7_4708_k85.csv"
+    # PUTANJA_DO_BAZE = "/data/loto7_4708_k85_loto_2976.csv"
+    PUTANJA_DO_BAZE = "/data/loto7_4708_k85_loto_plus_1732.csv"
 
     
     print("="*70)
@@ -123,7 +127,7 @@ if __name__ == "__main__":
 ======================================================================
  DSMcode QML PIPELINE v1 - VERIFIKOVANI POZICIONI KVANTNI MODEL 
 ======================================================================
-[+] Učitavanje istorijske baze sa: /Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv
+[+] Učitavanje istorijske baze sa: /data/loto7_4708_k85.csv
 [+] Detektovane kolone za analizu pozicija: ['5', '14', '15', '17', '28', '30', '34']
 [+] Uspešno učitano 4707 istorijskih kola.
 [+] Pokrećem sukcesivnu akumulaciju kroz pozicione registre (RAM bezbedno)...
@@ -131,7 +135,7 @@ if __name__ == "__main__":
 [+] Pretražujem amplitudski profil kroz podsisteme za jednoznačnu maksimizaciju...
 ======================================================================
 [+] SKRIVENA ZAVISNOST USPEŠNO IZOLOVANA.
-[+] Jednoznačna NEXT kombinacija za sledeće kolo: [8, 11, 13, 15, 25, 31, 38]
+[+] Jednoznačna NEXT kombinacija za sledeće kolo: [8, x, 13, y, 25, z, 38]
 ======================================================================
 
 
@@ -143,7 +147,7 @@ if __name__ == "__main__":
 ======================================================================
  DSMcode QML PIPELINE - VERIFIKOVANI POZICIONI KVANTNI MODEL 
 ======================================================================
-[+] Učitavanje istorijske baze sa: /Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv
+[+] Učitavanje istorijske baze sa: /data/loto7_4708_k85_loto_2976.csv
 [+] Detektovane kolone za analizu pozicija: ['5', '14', '15', '17', '28', '30', '34']
 [+] Uspešno učitano 2975 istorijskih kola.
 [+] Pokrećem sukcesivnu akumulaciju kroz pozicione registre (RAM bezbedno)...
@@ -151,7 +155,7 @@ if __name__ == "__main__":
 [+] Pretražujem amplitudski profil kroz podsisteme za jednoznačnu maksimizaciju...
 ======================================================================
 [+] SKRIVENA ZAVISNOST USPEŠNO IZOLOVANA.
-[+] Jednoznačna NEXT kombinacija za sledeće kolo: [2, 5, 7, 27, 28, 31, 38]
+[+] Jednoznačna NEXT kombinacija za sledeće kolo: [2, x, 7, y, 28, z, 38]
 ======================================================================
 
 
@@ -163,7 +167,7 @@ if __name__ == "__main__":
 ======================================================================
  DSMcode QML PIPELINE - VERIFIKOVANI POZICIONI KVANTNI MODEL 
 ======================================================================
-[+] Učitavanje istorijske baze sa: /Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv
+[+] Učitavanje istorijske baze sa: /data/loto7_4708_k85_loto_plus_1732.csv
 [+] Detektovane kolone za analizu pozicija: ['12', '17', '18', '19', '23', '35', '37']
 [+] Uspešno učitano 1731 istorijskih kola.
 [+] Pokrećem sukcesivnu akumulaciju kroz pozicione registre (RAM bezbedno)...
@@ -171,7 +175,7 @@ if __name__ == "__main__":
 [+] Pretražujem amplitudski profil kroz podsisteme za jednoznačnu maksimizaciju...
 ======================================================================
 [+] SKRIVENA ZAVISNOST USPEŠNO IZOLOVANA.
-[+] Jednoznačna NEXT kombinacija za sledeće kolo: [2, 6, 9, 23, 29, 30, 36]
+[+] Jednoznačna NEXT kombinacija za sledeće kolo: [2, x, 9, y, 29, z, 36]
 ======================================================================
 """
 
